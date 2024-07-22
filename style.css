@@ -1,4 +1,27 @@
-body{
-    background-color: black;
-    color: rgb(163, 160, 160);
+@font-face {
+    font-family: "redemption";
+    src: url("chinese\ rocks\ rg.ttf");
+}
+
+*{
+    font-family: "redemption";
+}
+
+.hero-image{
+    background-image: url("./images/arthur-hero-image.jpg");
+    height: 426px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    color: whitesmoke;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
 }
